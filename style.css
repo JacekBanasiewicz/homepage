@@ -1,5 +1,6 @@
 body{
 	background-color: lightgray;
+	color: #333;
 }
 h1{
 	color: tomato;
@@ -11,12 +12,19 @@ p{
 	color: darkblue;
 }
 .heading{
-	color: red;
+	color: #262626;
 	font-size: 65px;
 }
-.actionHeader{
-	color: black;
+.sectionHeader, .diaryHeader{
+	color: #006494;
 }
-.diaryHeader{
-	color: hotpink;
+ 
+.link{
+	color: #13293D;
+}
+.thirdHeader{
+	color: #018E42;
+}
+.about{
+	width: 700px;
 }
