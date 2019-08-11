@@ -5,9 +5,7 @@ body{
 h1{
 	color: tomato;
 }
-h2{
-	color: #1460aa;
-}
+
 p{
 	color: darkblue;
 }
@@ -19,8 +17,8 @@ p{
 	color: #006494;
 }
  
-.link{
-	color: #13293D;
+.navigation__link{
+	color: #1A936F;
 }
 .thirdHeader{
 	color: #018E42;
@@ -30,7 +28,55 @@ p{
 	max-width: 700px;
 	margin: 32px auto;
 }
-.paragraph{
-	padding: 16px;
 
+.box{
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	background: yellowgreen;
+	padding: 10px; margin: 10px;
+	position: absolute;
+	top: 0px;
 }
+
+.diary{
+	clear: both;
+}
+
+
+.about{}
+.about__header{
+	color: #1460aa;
+}
+.about__link{
+	color: #1A936F;
+}
+.about__paragraph{
+	padding: 16px;
+	font-size: 20px;
+}
+.about__paragraph--mini{
+	font-size: 13px;
+}
+.about__picture{
+	width: 100%;
+	max-width: 200px;
+	display: block;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
