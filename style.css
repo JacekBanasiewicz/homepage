@@ -7,7 +7,7 @@ h1{
 }
 
 p{
-	color: darkblue;
+	color: #000;
 }
 .heading{
 	color: #262626;
@@ -34,9 +34,10 @@ p{
 	height: 100px;
 	box-sizing: border-box;
 	background: yellowgreen;
-	padding: 10px; margin: 10px;
-	position: absolute;
+	padding: 10px;
+	position: relative;
 	top: 0px;
+	border: solid red 10px;
 }
 
 .diary{
