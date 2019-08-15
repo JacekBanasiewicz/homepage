@@ -11,7 +11,7 @@ p{
 }
 .heading{
 	color: #262626;
-	font-size: 65px;
+	font-size: 50px;
 }
 .sectionHeader, .diaryHeader{
 	color: #006494;
@@ -20,22 +20,22 @@ p{
 .navigation__link{
 	color: #1A936F;
 }
-.thirdHeader{
+.diary__section--header{
 	color: #018E42;
 }
 .main{
 	width: 100%;
-	max-width: 700px;
+	max-width: 900px;
 	margin: 32px auto;
 }
 
-.box{
+.about__box{
 	width: 100px;
 	height: 100px;
 	box-sizing: border-box;
 	background: yellowgreen;
 	padding: 10px;
-	position: relative;
+	position: static;
 	top: 0px;
 	border: solid red 10px;
 }
