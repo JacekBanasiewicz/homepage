@@ -9,25 +9,35 @@ h1{
 p{
 	color: #000;
 }
-.heading{
+.header__title{
 	color: #262626;
 	font-size: 50px;
 }
-.sectionHeader, .diaryHeader{
+.sectionHeader, .diary__header{
 	color: #006494;
 }
- 
+
+.navigation{
+	position: fixed;
+	padding: 16px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	background: lightgray;
+	border-bottom: solid .5px #000;
+}
 .navigation__link{
 	color: #1A936F;
 }
-.diary__section--header{
-	color: #018E42;
-}
+
 .main{
 	width: 100%;
 	max-width: 900px;
 	margin: 32px auto;
 }
+
+.about{}
 
 .about__box{
 	width: 100px;
@@ -40,31 +50,56 @@ p{
 	border: solid red 10px;
 }
 
-.diary{
-	clear: both;
-}
-
-
-.about{}
 .about__header{
 	color: #1460aa;
 }
+
 .about__link{
 	color: #1A936F;
 }
+
 .about__paragraph{
 	padding: 16px;
 	font-size: 20px;
 }
+
 .about__paragraph--mini{
 	font-size: 13px;
 }
+
 .about__picture{
 	width: 100%;
 	max-width: 200px;
 	display: block;
 	float: left;
 	margin: 0 16px 16px 0;
+}
+
+.diary{
+	clear: both;
+}
+
+.day__paragraph{
+	line-height: 24px;
+	padding: 0; margin: 0;
+}
+
+.day__link{
+	    color: #1A936F;
+}
+
+.day{
+	margin: 0 0 40px;
+}
+
+.day__header{
+	margin: 0 0 16px;
+	color: #018E42;
+	font-size: 20px;
+}
+
+.day__header--sunday{
+	color: darkred;
 }
 
 
